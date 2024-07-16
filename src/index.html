@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Todo List App</title>
+<link href="./output.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body class="bg-gray-700 h-screen flex items-center justify-center">
+<div class="container max-w-md w-full bg-gray-600 rounded-lg shadow-md p-6">
+    <h1 class="text-2xl font-bold mb-4 text-center text-white">Todo List</h1>
+    <div class="todo-input flex mb-4">
+        <input type="text" id="todoInput" placeholder="Add a new todo..." class="flex-grow p-2 border border-gray-300 rounded-l-md focus:outline-none focus:ring-2 focus:ring-blue-500" />
+        <button id="addTodoBtn" class="p-2 bg-grey-800 text-white rounded-r-md hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500">Add</button>
+    </div>
+    <ul id="todoList" class="space-y-2">
+        <!-- Todo items will be appended here -->
+    </ul>
+</div>
+<script src="index.js"></script>
+</body>
+</html>
